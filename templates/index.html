@@ -1,0 +1,97 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI SmartSpend Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <header>
+        <h1>AI SmartSpend</h1>
+        <p>Your personal AI-powered finance assistant</p>
+    </header>
+
+    <nav>
+        <a href="/">Dashboard</a>
+        <a href="#transactions">Transactions</a>
+        <a href="#budget">Budget</a>
+        <a href="#insights">AI Insights</a>
+    </nav>
+
+    <main>
+
+        <h2>Welcome to your Dashboard!</h2>
+
+        <section class="summary">
+
+            <div class="card">
+                <h3>Total Spending</h3>
+                <p>€450.00</p>
+            </div>
+
+            <div class="card">
+                <h3>Monthly Budget</h3>
+                <p>€1,000.00</p>
+            </div>
+
+            <div class="card">
+                <h3>Remaining Budget</h3>
+                <p>€550.00</p>
+            </div>
+
+        </section>
+
+        <section id="transactions">
+            <h2>Recent Transactions</h2>
+
+            <table>
+                <tr>
+                    <th>Transaction</th>
+                    <th>Category</th>
+                    <th>Amount</th>
+                </tr>
+
+                <tr>
+                    <td>Groceries</td>
+                    <td>Food</td>
+                    <td>€80.00</td>
+                </tr>
+
+                <tr>
+                    <td>Shopping</td>
+                    <td>Clothing</td>
+                    <td>€120.00</td>
+                </tr>
+
+                <tr>
+                    <td>Transport</td>
+                    <td>Travel</td>
+                    <td>€50.00</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="budget">
+            <h2>Monthly Budget Overview</h2>
+            <p>You have used 45% of your monthly budget.</p>
+            <progress value="45" max="100"></progress>
+        </section>
+
+        <section id="insights">
+            <h2>AI Spending Insights</h2>
+            <p>Your spending dashboard is ready. AI-powered spending recommendations will be added in a later stage.</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>AI SmartSpend | Smart decisions, smarter spending.</p>
+    </footer>
+
+</body>
+</html>
+```
