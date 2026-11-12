@@ -142,7 +142,11 @@ The project demonstrates how Python, APIs, databases, and AI can work together t
 ## 👩‍💻 Author
 
 Developed as an individual project for the PayPal AI Hackathon.
+## Demonstration Video
 
+Watch the AI SmartSpend demonstration video:
+
+https://drive.google.com/file/d/1nuAzScM_Zbmi6g03p9P8kjPCtnwhym3G/view?usp=sharing
 ---
 
 **AI SmartSpend — Spend Smarter. Save Better.**
