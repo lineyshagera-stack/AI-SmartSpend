@@ -223,3 +223,7 @@ venv/
 __pycache__/
 *.pyc
 .DS_Store
+# Local database and test files
+smartspend.db
+test_ai.py
+test_groq.py
